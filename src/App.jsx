@@ -44,7 +44,7 @@ const FollowMouse = () => {
     <>
       <div style={{
         position: "absolute",
-        backgroundColor: "#000",
+        backgroundColor: "#00a6f4",
         borderRadius: "50%",
         opacity: 0.8,
         pointerEvents: "none",
@@ -52,7 +52,7 @@ const FollowMouse = () => {
         top: -40,
         width: 60,
         height: 60,
-        border: "2px solid #fff",
+        border: "2px solid #000",
         transform: `translate(${position.x}px, ${position.y}px)`
       }}
       />
